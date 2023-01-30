@@ -1,8 +1,6 @@
 window.onload = function(){
-  
   let submit = document.querySelector("#btn");
   submit.addEventListener("click", eventHandler);
-
 }
 
 function eventHandler(event) {
@@ -19,7 +17,6 @@ function eventHandler(event) {
   altArray.push(altArray[0]);
   altArray.shift(altArray[0]);
   spitOut(altArray);
-
 }
 
 function spitOut(altArray) {
